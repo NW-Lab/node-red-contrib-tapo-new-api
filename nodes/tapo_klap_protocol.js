@@ -23,7 +23,7 @@ const CLOUD_URL = "https://eu-wap.tplinkcloud.com";
 const MAX_RETRIES_GUESS = 3;
 const AXIOS_TIMEOUT = 1000;
 // Constants for supported Energy devices
-exports.supportEnergyUsage = ["P110", "P115"];
+exports.supportEnergyUsage = ["P110", "P115","KP125M","P110M"];
 // Constants for Error 
 var ErrorCode;
 (function (ErrorCode) {
